@@ -37,4 +37,4 @@ Instructions:
 
 • Contributions and feedback are welcome!
 
-• contact me: insta_id : ajaykn_04
+contact me: insta_id : ajaykn_04
