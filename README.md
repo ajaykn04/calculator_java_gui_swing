@@ -23,8 +23,6 @@ Features:
 
 • Clear button for resetting input
 
-• Error handling for invalid inputs
-
 • Modular code structure for easy maintenance
 
 Instructions:
