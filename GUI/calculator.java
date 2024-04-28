@@ -14,10 +14,10 @@ public class Main implements ActionListener{
         public Main(){
                 jf=new JFrame("Calculator");
                 jf.setLayout(null);
-                jf.setBounds(1100,200,329,418);
+                jf.setBounds(1100,200,314,418);
 
                 jp=new JPanel();
-                jp.setBounds(0,0,329,418);
+                jp.setBounds(0,0,314,418);
                 jp.setLayout(null);
                 jp.setBackground(Color.black);
                 jf.add(jp);
@@ -28,15 +28,15 @@ public class Main implements ActionListener{
                 jl.setHorizontalAlignment(SwingConstants.RIGHT);
                 jl.setOpaque(true);
                 jl.setBounds(5,15,286,41);
-                jl.setFont(new Font("Arial",Font.BOLD|Font.ITALIC,36));
+                jl.setFont(new Font("Arial",Font.BOLD,36));
                 jp.add(jl);
 
                 jl1=new JLabel();
                 jl1.setBackground(Color.black);
                 jl1.setForeground(Color.white);
                 jl1.setOpaque(true);
-                jl1.setBounds(286,22,15,15);
-                jl1.setFont(new Font("Arial",Font.BOLD,26));
+                jl1.setBounds(286,18,20,20);
+                jl1.setFont(new Font("Arial",Font.BOLD,20));
 
                 jl2=new JLabel("0");
                 jl2.setBackground(Color.black);
@@ -44,7 +44,7 @@ public class Main implements ActionListener{
                 jl2.setHorizontalAlignment(SwingConstants.RIGHT);
                 jl2.setOpaque(true);
                 jl2.setBounds(5,47,300,47);
-                jl2.setFont(new Font("Arial",Font.BOLD|Font.ITALIC,36));
+                jl2.setFont(new Font("Arial",Font.BOLD,36));
                 jp.add(jl2);
 
                 jl3=new JLabel();
@@ -79,7 +79,7 @@ public class Main implements ActionListener{
                 jbAC.setBounds(5,113,74,50);
                 jbAC.setBackground(Color.darkGray);
                 jbAC.setForeground(Color.white);
-                jbAC.setFont(new Font(Font.SERIF,Font.BOLD,28));
+                jbAC.setFont(new Font(Font.SERIF,Font.BOLD,25));
                 jbAC.addActionListener(this);
 
                 jbmulti=new JButton("×");
@@ -191,7 +191,7 @@ public class Main implements ActionListener{
                 jb00.setBounds(5,325,74,50);
                 jb00.setBackground(Color.darkGray);
                 jb00.setForeground(Color.white);                
-                jb00.setFont(new Font(Font.SERIF,Font.BOLD,35));
+                jb00.setFont(new Font(Font.SERIF,Font.BOLD,28));
                 jb00.addActionListener(this);
 
                 jp.add(jbdiv);
@@ -519,30 +519,30 @@ public class Main implements ActionListener{
                         ans = ans.substring(0, ans.length() - 2);
                 }
 
-                return ans;        
+                return ans;
         }
         public void jl_jl1() {
                 jl.setForeground(Color.white);
-                jl.setFont(new Font("Arial",Font.BOLD|Font.ITALIC,36));
+                jl.setFont(new Font("Arial",Font.BOLD,36));
                 jl1.setForeground(Color.white);
-                jl1.setFont(new Font("Arial",Font.BOLD|Font.ITALIC,26));
+                jl1.setFont(new Font("Arial",Font.BOLD,20));
                 jl2.setForeground(Color.gray);
-                jl2.setFont(new Font("Arial",Font.BOLD|Font.ITALIC,22));
+                jl2.setFont(new Font("Arial",Font.BOLD,22));
         }
         public void jl2() {
                 jl.setForeground(Color.gray);
-                jl.setFont(new Font("Arial",Font.BOLD|Font.ITALIC,22));
+                jl.setFont(new Font("Arial",Font.BOLD,22));
                 jl1.setForeground(Color.gray);
-                jl1.setFont(new Font("Arial",Font.BOLD|Font.ITALIC,22));
+                jl1.setFont(new Font("Arial",Font.BOLD,20));
                 jl2.setForeground(Color.white);
-                jl2.setFont(new Font("Arial",Font.BOLD|Font.ITALIC,36));
+                jl2.setFont(new Font("Arial",Font.BOLD,36));
         }
         public void jl_jl1_jl2() {
                 jl.setForeground(Color.white);
-                jl.setFont(new Font("Arial",Font.BOLD|Font.ITALIC,36));
+                jl.setFont(new Font("Arial",Font.BOLD,36));
                 jl1.setForeground(Color.white);
-                jl1.setFont(new Font("Arial",Font.BOLD|Font.ITALIC,26));
+                jl1.setFont(new Font("Arial",Font.BOLD,20));
                 jl2.setForeground(Color.white);
-                jl2.setFont(new Font("Arial",Font.BOLD|Font.ITALIC,36));
+                jl2.setFont(new Font("Arial",Font.BOLD,36));
         }
 }
